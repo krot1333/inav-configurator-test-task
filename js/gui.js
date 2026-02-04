@@ -24,7 +24,8 @@ var GUI_control = function () {
         'firmware_flasher',
         'mission_control',
         'sitl',
-        'help'
+        'help',
+        'test'
     ];
     this.defaultAllowedTabsWhenConnected = [
         'failsafe',
@@ -51,7 +52,8 @@ var GUI_control = function () {
         'mixer',
         'programming',
         'ez_tune',
-        'search'
+        'search',
+        'test'
     ];
     this.allowedTabs = this.defaultAllowedTabsWhenDisconnected;
 
