@@ -1406,6 +1406,12 @@
     "pidTuning_PIDother": {
         "message": "Additional PID Gains"
     },
+    "pidTuning_TESTmain": {
+        "message": "OSD"
+    },
+    "pidTuning_TESTother": {
+        "message": "SENSORS"
+    },
     "pidTuning_SelectNewDefaults": {
         "message": "Select New Defaults"
     },

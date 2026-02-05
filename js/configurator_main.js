@@ -189,10 +189,6 @@ $(function() {
                             require('./../tabs/sitl')
                             TABS.sitl.initialize(content_ready);
                             break;
-                        case 'test':
-                            require('./../tabs/test')
-                            TABS.test.initialize(content_ready);
-                        break;
                         case 'auxiliary':
                             require('./../tabs/auxiliary')
                             TABS.auxiliary.initialize(content_ready);
@@ -289,6 +285,10 @@ $(function() {
                             require('./../tabs/search');
                             TABS.search.initialize(content_ready);
                             break;
+                        case 'test':
+                            require('./../tabs/test')
+                            TABS.test.initialize(content_ready);
+                        break;    
                         default:
                             console.log('Tab not found:' + tab);
                     }
