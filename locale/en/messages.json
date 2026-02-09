@@ -1407,10 +1407,10 @@
         "message": "Additional PID Gains"
     },
     "pidTuning_TESTmain": {
-        "message": "OSD"
+        "message": "SENSORS"
     },
     "pidTuning_TESTother": {
-        "message": "SENSORS"
+        "message": "OSD"
     },
     "pidTuning_SelectNewDefaults": {
         "message": "Select New Defaults"

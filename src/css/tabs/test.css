@@ -35,37 +35,37 @@
     width: 12em;
 }
 
-.tab-pid_tuning .cf tr {
+.subtab-pid-other .cf tr {
     background-color: #DEDEDE;
 }
 
-.tab-pid_tuning .cf th {
+.subtab-pid-other .cf th {
     border-right: solid 1px silver;
     height: 19px;
     font-weight: normal;
 }
 
-.tab-pid_tuning .cf th:last-child {
+.subtab-pid-other .cf th:last-child {
     border-right: 0;
 }
 
-.tab-pid_tuning .cf td:first-child {
+.subtab-pid-other .cf td:first-child {
     border-bottom-left-radius: 3px;
 }
 
-.tab-pid_tuning .cf td:last-child {
+.subtab-pid-other .cf td:last-child {
     border-bottom-right-radius: 3px;
     border-right: 0;
 }
 
-.tab-pid_tuning .cf input {
+.subtab-pid-other .cf input {
     margin: 4px;
     width: calc(100% - 10px);
     border: 1px solid silver;
     border-radius: 3px;
 }
 
-.tab-pid_tuning .cf select {
+.subtab-pid-other .cf select {
     margin: 4px;
     width: calc(100% - 10px);
 }
@@ -93,27 +93,27 @@
     margin-bottom: 10px;
 }
 
-.tab-pid_tuning input[type="number"]::-webkit-inner-spin-button {
+.subtab-pid-other input[type="number"]::-webkit-inner-spin-button {
     border: 0;
 }
 
-.tab-pid_tuning table {
+.subtab-pid-other table {
     float: left;
     margin: 0;
     border-collapse: collapse;
     width: calc(100% - -1px);
 }
 
-.tab-pid_tuning .gui_box {
+.subtab-pid-other .gui_box {
     margin-bottom: 0;
 }
 
-.tab-pid_tuning table, .tab-pid_tuning table td {
+.subtab-pid-other table, .subtab-pid-other table td {
     padding: 1px;
     border-bottom: 0 solid #ccc;
 }
 
-.tab-pid_tuning .pid_titlebar th {
+.subtab-pid-other .pid_titlebar th {
     padding: 5px;
     text-align: left;
     border-right: 1px solid #ccc;
@@ -121,30 +121,30 @@
     width: 20%;
 }
 
-.tab-pid_tuning .pid_titlebar th:first-child {
+.subtab-pid-other .pid_titlebar th:first-child {
     text-align: left;
 }
 
-.tab-pid_tuning .pid_titlebar th:last-child {
+.subtab-pid-other .pid_titlebar th:last-child {
     border-right: none;
 }
 
-.tab-pid_tuning table tr td:first-child {
+.subtab-pid-other table tr td:first-child {
     text-align: left;
     padding-left: 5px;
 }
 
-.tab-pid_tuning table tr td:last-child {
+.subtab-pid-other table tr td:last-child {
     border-right: 0 solid #ccc;
 }
 
-.tab-pid_tuning table td {
+.subtab-pid-other table td {
     padding: 1px;
     width: 20%;
     border-right: 1px solid #ccc;
 }
 
-.tab-pid_tuning table tr td {
+.subtab-pid-other table tr td {
     text-align: left;
     padding-left: 0;
 }
@@ -158,14 +158,14 @@
     border: none;
 }
 
-.tab-pid_tuning .profile {
+.subtab-pid-other .profile {
     float: left;
     width: calc(25% - 2px); /* - border*/
     border: 1px solid #ccc;
     border-radius: 3px;
 }
 
-.tab-pid_tuning .profile .head {
+.subtab-pid-other .profile .head {
     display: block;
     text-align: left;
     line-height: 20px;
@@ -177,31 +177,31 @@
     padding: 2px 2px 3px 6px;
 }
 
-.tab-pid_tuning .profile select {
+.subtab-pid-other .profile select {
     width: 100%;
     padding-left: calc(100% - 35px);
     height: 20px;
     line-height: 20px;
 }
 
-.tab-pid_tuning select {
+.subtab-pid-other select {
     line-height: 20px;
     margin: 4px;
 }
 
-.tab-pid_tuning .pid_tuning .name {
+.subtab-pid-other .pid_tuning .name {
     width: 25%;
 }
 
-.tab-pid_tuning .proportional {
+.subtab-pid-other .proportional {
     width: 25%;
 }
 
-.tab-pid_tuning .integral {
+.subtab-pid-other .integral {
     width: 25%;
 }
 
-.tab-pid_tuning .derivative {
+.subtab-pid-other .derivative {
     width: 25%;
 }
 
@@ -212,11 +212,11 @@
     border-collapse: collapse;
 }
 
-.tab-pid_tuning .top-buttons {
+.subtab-pid-other .top-buttons {
     float: right;
 }
 
-.tab-pid_tuning .fixed_band {
+.subtab-pid-other .fixed_band {
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -267,33 +267,33 @@
     width: 130px;
 }
 
-.tab-pid_tuning .helpicon {
+.subtab-pid-other .helpicon {
     margin-top: -1px;
 }
 
-.tab-pid_tuning .number .helpicon {
+.subtab-pid-other .number .helpicon {
     margin-top: 3px;
     margin-right: 0;
 }
 
-.tab-pid_tuning .gui_box_titlebar .helpicon {
+.subtab-pid-other .gui_box_titlebar .helpicon {
     margin-top: 5px;
     margin-right: 5px;
 }
 
-.tab-pid_tuning .spacer_left {
+.subtab-pid-other .spacer_left {
     padding-left: 15px;
     float: right;
     width: calc(100% - 20px)
 }
 
-.tab-pid_tuning .numberspacer {
+.subtab-pid-other .numberspacer {
     float: left;
     width: 65px;
     height: 21px;
 }
 
-.tab-pid_tuning .number {
+.subtab-pid-other .number {
     margin-bottom: 5px;
     clear: left;
     padding-bottom: 5px;
@@ -302,23 +302,23 @@
     float: left;
 }
 
-.tab-pid_tuning .number:last-child {
+.subtab-pid-other .number:last-child {
     padding-bottom: 5px;
     border-bottom: 0;
 }
 
-.tab-pid_tuning .pidTuning_number {
+.subtab-pid-other .pidTuning_number {
     clear: left;
     padding: 4px;
     float: left;
 }
 
-.tab-pid_tuning .pidTuning_select {
+.subtab-pid-other .pidTuning_select {
     clear: left;
     padding: 2px 6px 2px 1px;
 }
 
-.tab-pid_tuning .number input {
+.subtab-pid-other .number input {
     width: 50px;
     padding-left: 3px;
     height: 20px;
@@ -329,7 +329,7 @@
     font-weight: normal;
 }
 
-.tab-pid_tuning .gui_box span {
+.subtab-pid-other .gui_box span {
     font-style: normal;
     font-family: 'open_sansregular', Arial, serif;
     line-height: 19px;
@@ -350,45 +350,45 @@
     opacity: 0.15;
 }
 
-.tab-pid_tuning .resetbt {
+.subtab-pid-other .resetbt {
     width: 140px;
     float: right;
     margin-right:10px;
 }
 
-.tab-pid_tuning .right {
+.subtab-pid-other .right {
     float: right;
 }
 
-.tab-pid_tuning .pids {
+.subtab-pid-other .pids {
     float: left;
     width: 25%;
 }
 
-.tab-pid_tuning .leftzero {
+.subtab-pid-other .leftzero {
     padding-left: 0;
 }
 
-.tab-pid_tuning .tpa-breakpoint {
+.subtab-pid-other .tpa-breakpoint {
     border-top-left-radius: 0;
 }
 
-.tab-pid_tuning .pidTuningLevel {
+.subtab-pid-other .pidTuningLevel {
     float: left;
 }
 
-.tab-pid_tuning .borderleft {
+.subtab-pid-other .borderleft {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
 
-.tab-pid_tuning .textleft {
+.subtab-pid-other .textleft {
     width: 25%;
     float: left;
     text-align: left;
 }
 
-.tab-pid_tuning .topspacer {
+.subtab-pid-other .topspacer {
     margin-top:15px;
 }
 
@@ -398,7 +398,7 @@
 }
 
 .settings-table tbody {
-    /* background: #D6D6D6 linear-gradient(-45deg, rgba(255, 255, 255, .2) 10%, transparent 10%, transparent 20%, rgba(255, 255, 255, .2) 20%, rgba(255, 255, 255, .2) 30%, transparent 30%, transparent 40%, rgba(255, 255, 255, .2) 40%, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent 60%, rgba(255, 255, 255, .2) 60%, rgba(255, 255, 255, .2) 70%, transparent 70%, transparent 80%, rgba(255, 255, 255, .2) 80%, rgba(255, 255, 255, .2) 90%, transparent 90%, transparent 100%, rgba(255, 255, 255, .2) 100%, transparent); */
+    background: #D6D6D6 linear-gradient(-45deg, rgba(255, 255, 255, .2) 10%, transparent 10%, transparent 20%, rgba(255, 255, 255, .2) 20%, rgba(255, 255, 255, .2) 30%, transparent 30%, transparent 40%, rgba(255, 255, 255, .2) 40%, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent 60%, rgba(255, 255, 255, .2) 60%, rgba(255, 255, 255, .2) 70%, transparent 70%, transparent 80%, rgba(255, 255, 255, .2) 80%, rgba(255, 255, 255, .2) 90%, transparent 90%, transparent 100%, rgba(255, 255, 255, .2) 100%, transparent);
 }
 
 .pid-slider-row,
@@ -467,7 +467,7 @@
     margin-bottom: 1em;
 }
 
-.tab-pid_tuning .expo-chart {
+.subtab-pid-other .expo-chart {
     margin: 0 0px 0px 0;
     width: 200px;
     height: 117px;
@@ -476,4 +476,185 @@
     background-image: url(./../../../images/paper.jpg);
     background-size: 200%;
     background-position: center;
+}
+
+
+.subtab-pid .info {
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.subtab-pid .info input {
+    vertical-align: middle;
+    margin: 0 5px 0 15px;
+}
+
+.subtab-pid .info .first {
+    margin: 0 5px 0 0;
+}
+
+.subtab-pid .wrapper {
+    display: none;
+}
+
+.subtab-pid .plot_control {
+    float: right;
+    width: 160px;
+    /* border: 1px solid silver; */
+    height: 160px;
+    margin: 0;
+    background-color: #ECECEC;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.subtab-pid .plot_control .title {
+    line-height: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.subtab-pid .plot_control dl {
+    padding: 10px 10px 0 10px;
+    line-height: 22px;
+    float: left;
+}
+
+.subtab-pid .plot_control dt {
+    float: left;
+    width: 60px;
+    height: 22px;
+    font-weight: bold;
+}
+
+.subtab-pid .plot_control dd {
+    /* margin-left: 20px; */
+    height: 25px;
+    float: right;
+    width: 73px;
+}
+
+.subtab-pid .plot_control select {
+    float: right;
+    width: 80px;
+    border: 1px solid silver;
+}
+
+.subtab-pid .plot_control .x {
+    background-color: #00A8F0;
+    padding: 3px;
+    color: #fff;
+    height: 12px;
+    float: right;
+    border-radius: 3px;
+    line-height: 12px;
+    margin-bottom: 2px;
+}
+
+.subtab-pid .plot_control .y {
+    background-color: #C0D800;
+    padding: 3px;
+    color: #fff;
+    height: 12px;
+    float: right;
+    border-radius: 3px;
+    line-height: 12px;
+    margin-bottom: 2px;
+}
+
+.subtab-pid .plot_control .z {
+    background-color: #CB4B4B;
+    padding: 3px;
+    color: #fff;
+    height: 12px;
+    float: right;
+    border-radius: 3px;
+    line-height: 12px;
+    margin-bottom: 2px;
+}
+
+.subtab-pid .plot_control .x, .subtab-pid .plot_control .y, .subtab-pid .plot_control .z {
+    text-align: right;
+}
+/* SVG classes*/
+.subtab-pid svg {
+    float: left;
+    width: calc(100% - 180px);
+    height: 140px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.subtab-pid .grid .tick {
+    stroke: silver;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.subtab-pid .grid path {
+    stroke-width: 0;
+}
+
+.subtab-pid .data .line {
+    stroke-width: 2px;
+    fill: none;
+}
+
+.subtab-pid .axis path, .subtab-pid .axis line {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.subtab-pid text {
+    stroke: none;
+    fill: #828885;
+    font-size: 10px;
+}
+
+.subtab-pid .line:nth-child(1) {
+    stroke: #00A8F0;
+}
+
+.subtab-pid .line:nth-child(2) {
+    stroke: #C0D800;
+}
+
+.subtab-pid .line:nth-child(3) {
+    stroke: #CB4B4B;
+}
+
+.subtab-pid .line:nth-child(4) {
+    stroke: #4DA74D;
+}
+
+.subtab-pid .legend .item:nth-child(1) {
+    fill: #00A8F0;
+}
+
+.subtab-pid .legend .item:nth-child(2) {
+    fill: #C0D800;
+}
+
+.subtab-pid .legend .item:nth-child(3) {
+    fill: #CB4B4B;
+}
+
+.subtab-pid .legend .item:nth-child(4) {
+    fill: #4DA74D;
+}
+
+.subtab-pid a.debug-trace {
+    float: right;
+    margin-right: 1em;
+    font-size: 90%;
+}
+
+.subtab-pid a.debug-trace:hover {
+    text-decoration: underline;
 }
